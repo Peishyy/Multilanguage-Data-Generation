@@ -1,6 +1,6 @@
 import os
 import json
-
+#import json and os
 def process_jsonl_files(input_folder, output_folder, languages_of_interest):
     # Create dictionaries to store data for each language and set
     language_data = {lang: {'train': [], 'test': [], 'dev': []} for lang in languages_of_interest}
