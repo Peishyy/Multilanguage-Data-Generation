@@ -44,3 +44,7 @@ def process_jsonl_files(input_folder, output_folder, languages_of_interest):
     print(f'Large JSON file {large_json_filename} created.')
 
 # Example usage:
+#input_folder = 'data'
+#output_folder = 'data/output'
+#languages_of_interest = ['en-US', 'sw-KE', 'de-DE']
+#process_jsonl_files(input_folder, output_folder, languages_of_interest)
