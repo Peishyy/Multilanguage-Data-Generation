@@ -37,7 +37,12 @@ def process_jsonl_files(input_folder, output_folder, languages_of_interest):
                     jsonl_file.write('\n')
             print(f'JSONL file {jsonl_filename} created.')
 
-    # Create a large JSON file for translations from English to other languages for the train set
+    # Create a large JSON file for translations 
+    # from English to other 
+    # languages for 
+    # the train
+    #  set
+    #this will make the code run succesfully
     large_json_filename = os.path.join(output_folder, 'en_to_xx_large.json')
     with open(large_json_filename, 'w', encoding='utf-8') as large_json_file:
         json.dump(translations, large_json_file, ensure_ascii=False, indent=2)
