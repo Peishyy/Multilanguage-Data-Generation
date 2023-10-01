@@ -9,7 +9,7 @@ def main():
     process_jsonl_files(input_folder, output_folder, languages_of_interest)
     #folder_path = "data"
     #generate_excel_files_for_language(folder_path)
-
+#generate execl files for language
 if __name__ == "__main__":
     main()
 
