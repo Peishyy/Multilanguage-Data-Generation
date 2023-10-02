@@ -7,6 +7,7 @@ def generate_excel_files_for_language(folder_path):
     language_data = {}
 
     # Loop through JSONL files in the folder
+    # Loop through JSONL files in the folder
     for filename in os.listdir(folder_path):
         if filename.endswith(".jsonl"):
             with open(os.path.join(folder_path, filename), 'r', encoding='utf-8') as file:
