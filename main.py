@@ -11,6 +11,7 @@ def main():
     process_jsonl_files(input_folder, output_folder, languages_of_interest)
 
     # This is the function of question 1
+     # This is the function of question 1
     #folder_path = "data"
     #generate_excel_files_for_language(folder_path)
 
