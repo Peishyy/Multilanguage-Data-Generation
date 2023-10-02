@@ -7,6 +7,7 @@ def generate_excel_files_for_language(folder_path):
     language_data = {}
 
     # Loop through JSONL files in the folder
+    # Loop through JSONL files in the folder
     for filename in os.listdir(folder_path):
         if filename.endswith(".jsonl"):
             with open(os.path.join(folder_path, filename), 'r', encoding='utf-8') as file:
@@ -31,6 +32,7 @@ def generate_excel_files_for_language(folder_path):
                         language_data[language_id]['intent'].append(intent)
                         language_data[language_id]['annot_utt'].append(annot_utt)
 
+    # Create Excel files for each language
     # Create Excel files for each language
     for language_id, data_dict in language_data.items():
         df = pd.DataFrame(data_dict)
